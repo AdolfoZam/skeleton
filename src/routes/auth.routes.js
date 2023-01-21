@@ -1,6 +1,6 @@
 //registro y loguin
 const { Router } = require('express');
-const { register } = require('../controllers/auth.controller');
+const { register, login } = require('../controllers/auth.controller');
 
 const router = Router();
 
